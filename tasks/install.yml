@@ -1,0 +1,7 @@
+---
+#installing httpd package
+- name: install apache
+  yum:
+          name: apache2
+          state: latest
+
